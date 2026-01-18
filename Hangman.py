@@ -48,6 +48,6 @@ while wrong_attempts < attempts:
         print("Congrats you got the word!")
         break
 
-if attempts == wrong_attempts and '_' in guessed_word:
+if wrong_attempts == attempts and '_' in guessed_word:
     display_man(wrong_attempts=6)
     print("Wrong guesses! the word was " + word)
